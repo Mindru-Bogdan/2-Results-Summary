@@ -1,15 +1,62 @@
-.card{
-    display: block;
-    position: absolute;
-    background-color: #513af5;
-    color: #ffffff;
-    top: 300px;
-}
+@media only screen and (min-device-width: 1440px) {
+    .card{
+        display: block;
+        position: absolute;
+        text-align: center;
+        width: 400px;
+        height: 550px;;
+        background-image: linear-gradient(#6743fe, #312cea);
+        color: #ffffff;
+        top: 50%;
+        left: 50%;
+        margin-top: -275px;
+        margin-left: -400px;
+        border-radius: 35px;
+        font-family: 'Hanken Grotesk';
+        z-index: 1;
+    }
 
-.result {
-    background-color: #4925cf;
-}
+    .title {
+        color:#c8c1ff;
+        font-size:23px;
+        padding-top: 10px;
+    }
 
-p {
-    color: #8d80ff
+    .result {
+        position: absolute;
+        background-image: linear-gradient(#4c22ca, #4936f3);
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;;
+        top: 50%;
+        left:50%;
+        margin-top: -175px;
+        margin-left: -100px;
+    }
+
+    .result h1 {
+        font-size:75px;
+    }
+
+    .result p {
+        position: absolute;
+        color: #8a7cff;
+        font-size:17px;
+        bottom: 20px;
+        left: 75px;;
+        font-weight: 700;
+    }
+
+    .secondTitle {
+        padding-top: 250px;
+        font-size: 35px;
+    }
+
+    h4 {
+        color: #bfbcfe;
+        font-size: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-weight: 400;
+    }
 }

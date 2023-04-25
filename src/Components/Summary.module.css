@@ -1,5 +1,107 @@
-.card {
-    display: block;
-    position: absolute;
-    top: 60px;
+@media only screen and (min-device-width: 1440px) {
+    .card{
+        display: block;
+        position: absolute;
+        text-align: left;
+        padding-left: 400px;
+        width: 400px;
+        height: 550px;;
+        top: 50%;
+        left: 50%;
+        margin-top: -275px;
+        margin-left: -400px;
+        border-radius: 35px;
+        font-family: 'Hanken Grotesk';
+        box-shadow: 10px 20px 20px rgba(96, 96, 202, 0.1);
+    }
+
+    .title {
+        padding-left: 50px;
+        padding-top: 10px;
+        font-size:23px;
+        color: #303b59;
+        margin-bottom: 30px;
+    }
+
+    img {
+        height: 100%;
+        vertical-align: middle;
+        padding: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        font-size: 19px;
+        width: 300px;
+        padding: 0px 0px 10px 50px;
+    }
+
+    li {
+        list-style-type: none;
+        margin-bottom: 20px;
+        font-weight: 500;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    ol {
+        padding: 1px;
+        list-style-type: none;
+        float: right;
+        padding: 8px 4px 8px 4px;
+        vertical-align: middle;
+    }
+
+    .result {
+        color:#303b59;
+        font-weight: 700;
+    }
+
+    .total {
+        color: #a5a4a7;
+        font-weight: 700;
+    }
+    
+    .reaction {
+        background-color: #fff6f5;
+        color:#ff5454;
+        
+    }
+
+    .memory {
+        background-color: #fffbf2;
+        color: #ffb41c;
+    }
+
+    .verbal {
+        background-color: #f2fbfa;
+        color:#08bc8c;
+    }
+
+    .visual {
+        background-color: #f3f3fd;
+        color:#1824d4;
+    }
+
+    .button {
+        position: absolute;
+        text-align: center;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        margin-top: 10px;
+        background-color: #303b59;
+        color: #ffffff;
+        bottom: 35px;
+        width: 300px;
+        right: 50%;
+        margin-right: -350px;
+        font-size: 17px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    .button:hover {
+        background-color: #4c37f4;
+    }
 }
