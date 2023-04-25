@@ -1,0 +1,15 @@
+.card{
+    display: block;
+    position: absolute;
+    background-color: #513af5;
+    color: #ffffff;
+    top: 300px;
+}
+
+.result {
+    background-color: #4925cf;
+}
+
+p {
+    color: #8d80ff
+}
